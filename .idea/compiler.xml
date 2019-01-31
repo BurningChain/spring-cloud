@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="miracle-comm" />
+        <module name="miracle-configserver" />
+        <module name="miracle-gateway" />
+        <module name="miracle-oauth2" />
+        <module name="miracle-registry" />
+        <module name="miracle-zipkin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="miracle-comm" options="-parameters" />
+      <module name="miracle-configserver" options="-parameters" />
+      <module name="miracle-gateway" options="-parameters" />
+      <module name="miracle-oauth2" options="-parameters" />
+      <module name="miracle-registry" options="-parameters" />
+      <module name="miracle-zipkin" options="-parameters" />
+    </option>
+  </component>
+</project>
